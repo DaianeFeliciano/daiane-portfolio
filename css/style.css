@@ -1,0 +1,426 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: rgb(55, 223, 144);
+    background-color:  rgb(28, 12, 63);
+}
+    
+h1,h2,h3,::placeholder {
+    font-family: Asap, sans-serif;
+    color: rgb(55, 223, 144);
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(28, 12, 63);
+    border-bottom: 1px solid rgb(67, 51, 118);
+    
+
+}
+
+.botao, #botao {
+
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(28, 12, 63);
+    font-size: .9em;
+    border: thick  groove  #25cbd3;
+    border-radius: 10px;
+}
+
+.botao:hover, #botao:hover {
+background-color:  #25cbd3;
+color: #00410f;
+
+}
+
+.botaofixo {
+
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(28, 12, 63);
+    font-size: .9em;
+    border: thick  groove  #25cbd3;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    background-color: transparent;
+   
+}
+
+.botaofixo:hover {
+background-color:  #25cbd3;
+color: #00410f;
+
+}
+
+
+
+nav > a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, sans-serif;
+    border-bottom: 1px solid  #25cbd3;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    border: thick  groove  #25cbd3;
+    border-radius: 15px;
+
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+ 
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #e9f8f8;
+    border-radius: 10px;
+ 
+}
+
+nav ul li a:hover {
+    background-color:  #25cbd3;
+    color: #00410f;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(28, 12, 63);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:  white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    color: black;
+}
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color:  rgb(28, 12, 63);
+    color:  white;
+    border: 1px solid rgb(67, 51, 118);
+ 
+
+}
+
+#sobre h2 {
+    color: rgb(55, 223, 144);
+}
+#sobre p {
+margin-bottom: 2.5em;
+max-width: 1000px;
+}
+
+#sobre.botao {
+    background-color: black;
+    color: aliceblue;
+}
+
+#sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color:  rgb(28, 12, 63);
+    color:  white;
+    border: 1px solid rgb(67, 51, 118);
+
+
+}
+
+#imgdaiane {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#imgtech {
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+}
+#imgtech1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+}
+#sobremim div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color:  rgb(28, 12, 63);
+    color:  white;
+    border: 1px solid rgb(67, 51, 118);
+    justify-content: center;
+}
+
+#fotos h2 {
+    margin-bottom: 20px;
+}
+
+#fotos img {
+    width: 100%;
+    justify-content: center;
+}
+
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:  rgb(28, 12, 63);
+    color:  white;
+   
+   
+}
+
+
+
+#contato h2 {
+    color:rgb(55, 223, 144);
+
+}
+
+#contato a {
+text-decoration: none;
+color: white;
+}
+
+#arquivos {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(28, 12, 63);
+    font-size: .9em;
+    border: thick  groove  #25cbd3;
+    border-radius: 10px;
+    
+}
+
+#arquivos:hover {
+    background-color:  #25cbd3;
+    color: #00410f;
+    
+    }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    background-color:  rgb(28, 12, 63);
+    color:  white;
+    border: 1px solid rgb(67, 51, 118);
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(55, 223, 144);
+}
+
+@media screen and (min-width: 768px) {
+    
+nav {
+    flex-direction: row;
+    justify-content: space-around;
+
+}    
+nav ul {
+
+    flex-direction: row;
+    width: 70%;
+
+}
+/*cabeçalho*/
+header {
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+
+}
+/*sobre*/
+#sobre{
+height: 250px;
+height: 30vh;
+justify-content: center;
+min-height: 250px;
+}
+
+
+#fotos{
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+#fotos h2 {
+   width: 100%;
+   text-align: center;
+
+}
+
+#fotos img {
+    width:33.3333333%;
+}
+#fotos p {
+margin-bottom: 2.5em;
+max-width: 1000px;
+text-align: center;
+
+}
+
+
+#galeryimg {
+
+    border: 1px solid rgb(67, 51, 118);
+
+}
+
+
+#contato {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+
+    
+}
+
+#contato h2, #contato p {
+
+    width: 100%;
+}
+#arquivos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 50px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.entrada {
+    /*width: 320px;*/
+
+    height: 20px;
+    background-color: rgb(28, 12, 63);
+    color: rgb(233, 221, 221);
+    font-family: Nunito, sans-serif;
+    border-radius: 10px;
+    width: 75%;
+    position: relative;
+    margin-left: 0%;
+    padding-left: 5%;
+    border: thick  groove  #25cbd3;
+    flex-direction: row;
+    justify-content: space-around;
+  
+
+
+}
+
+label {
+
+    font-family: Nunito, sans-serif;
+    color:rgb(55, 223, 144);
+
+    
+}
+
+form {
+width: 30%;
+position: relative;
+margin-left: 30%;
+padding-left: 5%;
+border: thick  groove  #25cbd3;
+border-radius: 10px;
+}
+
+.nomeOpcao {
+margin-right: -50px;
+}
+
+#formulario h1 {
+
+border: thick  groove  #25cbd3;
+text-align: center;
+color:rgb(55, 223, 144);
+height: 50px;
+margin-top: 0px;
+border-radius: 10px;
+
+}
+
+#botao {
+
+    width: 88%;
+    position: relative;
+    margin-left: 0%;
+    padding-left: 5%;
+    border: thick  groove  #25cbd3;
+    /*top: 55px;*/
+    
+}
+
+
+#caixaTexto {
+
+width: 80%;
+position: relative;
+margin-left: 0%;
+padding-left: 5%;
+border: thick  groove  #25cbd3;
+border-radius: 10px;
+
+}
+
+
+}
+

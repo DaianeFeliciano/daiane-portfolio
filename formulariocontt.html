@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/mediaScreen480.css">
+    <link rel="stylesheet" type="text/css" href="./css/mediaScreen769x1279.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:
+wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="./img/avatar1.png" />
+    <!--tag de resposividade-->
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html"> Daiane Santana</a>
+        <ul>
+            <li><a href="./index.html"> Home</a></li>
+            <li><a href="./sobre.html"> Sobre</a></li>
+            <li><a href="https://github.com/DaianeFeliciano" target="_blank"> GitHub</a></li>
+            <li><a href="#contato"> Contato</a></li>
+        </ul>
+    </nav>
+    <div id="formulario">
+ 
+        <h1> Entre em contato! &#9996; </h1>
+        <br><br>
+        <!-- Formulário para coleta de elementos -->
+        <form id="Formulário de contato">
+            <!-- Coleta de dados do tipo nome -->
+            <label for="nome"> &#10004; </label>
+            <!-- Título do campo -->
+            <input class="entrada" type="text" id="nome" name="nome" placeholder="Seu nome ;)"" title="Informe seu nome" required>
+            <br><br>
+            <!-- Coleta de dados do tipo email -->
+            <label for="email"> 	&#9993; </label>
+            <input class="entrada" type="email" id="email" name="email" placeholder="nome@provedor.com" pattern="[a-z0-9]" title="Informe um e-mail correto" required>
+            <br><br>
+            <!-- Coleta de dados do tipo botão radio para sexo biológico -->
+            <label for="assunto"> 	&#9998; </label>
+            <input class="entrada" type="text" id="assunto" name="assunto" placeholder="Assunto" pattern="[a-z]" title="Informe o assunto" required>
+            <br><br><br>
+
+            <!-- Campo para inserção de sugestões -->
+            <label> &#10077; Mensagem &#9999;  &#12336; &#10078;</label>
+            <br>
+            <textarea id="caixaTexto" name="caixaTexto" placeholder="Digite aqui a sua mensagem!" rows="10" cols="50"></textarea>
+
+            <br><br><br>
+            <input id="botao" type="submit" value="Enviar   &#10003;">
+            
+        </form>
+    </div>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>  <a href="#formulario"class="botao">Venha falar comigo &#10084; </a></p>
+        <div>
+    
+        <p> <a href="https://web.whatsapp.com/send?phone=551199999999" target="_blank">
+            <img src="./img/whats.png" alt="contato por whats">  </a></p>
+    
+    
+        </div>
+        <div>
+            
+            <p> <a href="mailto: contato@daianesantana.com" target="_blank"> 
+                <img src="./img/iconeemail.png" alt="contato por e-mail"> </a></p>
+        </div>
+        <div>
+            
+            <p> <a href="https://www.linkedin.com/"> 
+                <img src="./img/meulinkedin.png" alt="rede social linkedin"></a></p>
+        </div>
+       </section>
+       <footer>
+           <a href="#formulario">VOLTAR</a>
+           <p>Desenvolvido | Daiane</p>
+       </footer>
+</body>
+
+</html>
